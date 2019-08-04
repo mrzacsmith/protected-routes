@@ -1,18 +1,18 @@
 import React from "react";
 import auth from "./auth";
 
-export const LandingPage = props => {
+export const AppLayout = props => {
   return (
     <div>
-      <h2>LandingPage</h2>
+      <h2>App Layout</h2>
       <button
         onClick={() => {
-          auth.login(() => {
-            props.history.push("/app");
+          auth.logout(() => {
+            props.history.push("/");
           });
         }}
       >
-        Log In
+        Log Out
       </button>
     </div>
   );
