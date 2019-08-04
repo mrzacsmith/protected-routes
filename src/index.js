@@ -11,6 +11,7 @@ import "./styles.css";
 function App() {
   return (
     <div className="App">
+
       <Navbar />
       <Switch>
         <Route exact path="/" component={LandingPage} />
