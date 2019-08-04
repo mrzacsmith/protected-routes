@@ -4,7 +4,7 @@ import auth from "./auth";
 export const LandingPage = props => {
   return (
     <div>
-      <h2>LandingPage</h2>
+      <h2>LandingPage (Public)</h2>
       <button
         onClick={() => {
           auth.login(() => {
