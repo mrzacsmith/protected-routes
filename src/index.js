@@ -12,6 +12,7 @@ function App() {
     <div className="App">
       <h1>Protected Routes</h1>
       <Route exact path="/" component={LandingPage} />
+
       <ProtectedRoute exact path="/app" component={AppLayout} />
     </div>
   );
